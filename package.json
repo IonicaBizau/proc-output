@@ -1,6 +1,6 @@
 {
   "name": "proc-output",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the output of a process.",
   "main": "lib/index.js",
   "directories": {
@@ -22,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/proc-output/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/proc-output#readme"
+  "homepage": "https://github.com/IonicaBizau/proc-output#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
