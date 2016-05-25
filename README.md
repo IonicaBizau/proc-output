@@ -1,18 +1,22 @@
-# proc-output [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/proc-output.svg)](https://www.npmjs.com/package/proc-output) [![Downloads](https://img.shields.io/npm/dt/proc-output.svg)](https://www.npmjs.com/package/proc-output) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# proc-output
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/proc-output.svg)](https://www.npmjs.com/package/proc-output) [![Downloads](https://img.shields.io/npm/dt/proc-output.svg)](https://www.npmjs.com/package/proc-output) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get the output of a process.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save proc-output
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const procOutput = require("proc-output")
     , spawn = require("child_process").spawn
     ;
@@ -21,15 +25,16 @@ let proc = spawn("ls");
 
 procOutput(proc, (err, stdout, stderr, code) => {
     console.log(`Process ended with code: ${code}`);
+    // => Process ended with code: 0
     console.log(err || stderr || stdout);
     // =>
-    // Process ended with code: 0
     // example
     // lib
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `procOutput(proc, cb)`
 Get the output of a process.
@@ -41,13 +46,18 @@ Get the output of a process.
 #### Return
 - **Process** The process object.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`spawno`](https://github.com/IonicaBizau/spawno#readme)—Easily work with child processes.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
