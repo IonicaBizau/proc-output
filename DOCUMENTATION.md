@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Get the output of a process.
 
 #### Params
+
 - **Process** `proc`: The process object.
 - **Function** `cb`: The callback function.
 
