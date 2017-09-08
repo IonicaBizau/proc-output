@@ -1,6 +1,6 @@
 {
   "name": "proc-output",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Get the output of a process.",
   "main": "lib/index.js",
   "directories": {
@@ -33,6 +33,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
