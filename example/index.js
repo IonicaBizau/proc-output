@@ -1,8 +1,5 @@
-"use strict";
-
-const procOutput = require("../lib")
-    , spawn = require("child_process").spawn
-    ;
+import { spawn } from "node:child_process";
+import procOutput from "../lib/index.js";
 
 let proc = spawn("ls");
 

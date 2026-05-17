@@ -74,9 +74,8 @@ yarn add proc-output
 
 
 ```js
-const procOutput = require("proc-output")
-    , spawn = require("child_process").spawn
-    ;
+import { spawn } from "node:child_process";
+import procOutput from "proc-output";
 
 let proc = spawn("ls");
 

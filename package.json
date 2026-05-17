@@ -2,7 +2,9 @@
   "name": "proc-output",
   "version": "1.0.9",
   "description": "Get the output of a process.",
+  "type": "module",
   "main": "lib/index.js",
+  "exports": "./lib/index.js",
   "directories": {
     "example": "example"
   },
